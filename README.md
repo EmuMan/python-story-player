@@ -37,6 +37,9 @@ provided that you have the proper dictionaries and subdictionaries.
 
 As you can probably imagine, these stories can get quite messy, which is why I recommend [JSON Editor Online](https://jsoneditoronline.org/) for ease of comprehension and editing if you don't have anything else installed.  You can also use the tool to remove spaces to make the file extra hard for people to read without using the engine.
 
+### Special chars
+There are two special characters you can include in your JSON story: ~ and ^.  ~ can be placed anywhere to create a half-second pause (ideal after periods and such), and ^ can be used to create a new line (think pressing enter).  **DO NOT** USE \n!!! This will make the JSON file unreadable, and it will not be able to load into the game.  Use ^ instead.
+
 ## Running stories
 To run your story, simply launch "play.py" and enter the name of the game file you want to run (must be moved into the 'games' folder).  You can learn more about how to run Python for your OS and such from other sources online, and as far as I can tell, this should work with Python 2.X as well, but it hasn't actually been tested.
 
