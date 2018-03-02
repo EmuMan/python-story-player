@@ -1,0 +1,31 @@
+{
+	"text": "You are on a camping trip in the Alps, walking up a hill with a 40 pound backpack.  ~Soon, you come across a nice looking glade, which looks nice for camping, but you think you might be able to get something better up higher.^~Do you continue or stop?",
+	"opts": ["continue", "stop"],
+	"continue": {
+		"text": "You decide to continue in hope of finding a better location.  ~Just a bit up the hill, you come across a bear wandering in the woods.~  He suddenly looks at you and growls.^~Do you fight it or play dead?",
+		"opts": ["fight", "play dead"],
+		"fight": {
+			"text": "You decided to challenge the bear to a 1v1, and after only 3 seconds, you roundhouse kick it in the face and defeat it with one blow.  ^~.~.~.~ Just kidding, the bear brutally mauls you, you didn't stand a chance you moron.^~Why did you even try to do that?"
+		},
+		"play dead": {
+			"text": "Good job, you decided to play dead and not actually be dead.^~Anyways, after a while, the bear decides to ignore you and wanders back off into the woods, leaving you free to go.  You are starting to think that higher up might start getting a bit sketchy, do you continue or go back?",
+			"opts": ["continue", "go back"],
+			"continue": {
+				"text": "Despite the growing dangers, you decide to push on."
+			},
+			"go back": {
+				"text": "You chicken out and decide to head back to the old camping spot.  ",
+				"goto": ["stop"]
+			}
+		}
+	},
+	"stop": {
+		"text": "You stop at the glade to put up the tent.  There are lots of bugs there, but you figure that they will eventually go away as it is getting late.~  You set up the tent and start preparing dinner.^^~~~After a nice and filling dinner, you think about going off into the woods to find a good view, but also kind of want to get to bed after a long day.^~Do you go or stay?",
+		"opts": ["go", "stay"],
+		"go": {
+			"text": "hello"
+		},
+		"stay": {
+		}
+	}
+}
